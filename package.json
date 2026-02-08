@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js",
+    "dev": "nodemon server.js",
     "lint": "echo \"Lint pendiente\""
   },
   "author": "Diego Dávalos <diego.davalos@gmail.cl>",
