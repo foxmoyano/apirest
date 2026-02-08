@@ -1,18 +1,25 @@
 {
   "name": "productsapp",
   "version": "1.0.0",
-  "description": "productosdid",
-  "main": "index.js",
+  "description": "API REST de productos con Node.js, Express y MongoDB",
+  "main": "app.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: sin prueba especificada\" && exit 1",
-    "start": "nodemon app"
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "echo \"Lint pendiente\""
   },
-  "author": "'Diego <'diego.davalos@gmail.cl'>",
+  "author": "Diego Dávalos <diego.davalos@gmail.cl>",
   "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.4",
-    "mongoose": "^6.13.6"
+  "engines": {
+    "node": ">=18"
   },
-  "devDependencies": {}
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }
